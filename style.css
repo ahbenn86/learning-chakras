@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.figure-man-pic {
+    height: 654px;
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+}
+
+.red-chakra {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(208, 0, 0, 0.832);
+    top: 32rem;
+    left: 26.5rem;
+    position: absolute;
+}
+
+.orange-chakra {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(255, 166, 0, 0.832);
+    top: 27.5rem;
+    left: 26.5rem;
+    position: absolute;
+}
+
+.yellow-chakra {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 255, 0, 0.832);
+    top: 22.5rem;
+    left: 26.5rem;
+    position: absolute;
+}
+
+.green-chakra {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(0, 128, 0, 0.832);
+    top: 18rem;
+    left: 26.5rem;
+    position: absolute;
+}
+
+.light-blue-chakra {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(173, 216, 230, 0.832);
+    top: 14rem;
+    left: 26.9rem;
+    position: absolute;
+}
+
+.blue-chakra {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(0, 0, 255, 0.832);
+    top: 10rem;
+    left: 26.9rem;
+    position: absolute;
+}
+
+.purple-chakra {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(128, 0, 128, 0.832);
+    top: 7rem;
+    left: 26.9rem;
+    position: absolute;
+}
+
+.root-chakra-text {
+    width: 34rem;
+    height: 2.5rem;
+    background-color: rgba(208, 0, 0, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 32rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+    
+}
+
+.sacral-chakra-text {
+    width: 34rem;
+    height: 2.5rem;
+    background-color: rgba(255, 166, 0, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 27.5rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+    color: black;
+    
+}
+
+.solar-chakra-text {
+    width: 37rem;
+    height: 2.5rem;
+    background-color: rgb(255, 255, 0, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 23rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+    color: black;
+    
+}
+
+.heart-chakra-text {
+    width: 37rem;
+    height: 2.5rem;
+    background-color: rgb(0, 128, 0, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 18rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+}
+
+.throat-chakra-text {
+    width: 37rem;
+    height: 2.5rem;
+    background-color: rgb(173, 216, 230, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: absolute;
+    top: 14rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+}
+
+.third-eye-chakra-text {
+    width: 37rem;
+    height: 2.5rem;
+    background-color: rgb(0, 0, 255, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 10rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+}
+
+.crown-chakra-text {
+    width: 37rem;
+    height: 2.5rem;
+    background-color: rgb(128, 0, 128, 0.832);
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 6.5rem;
+    left: 37rem;
+    visibility: hidden;
+    box-shadow: 3px 3px #b5b5b5;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 2rem;
+}
+
+.chakra-btn {
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 0, 0);
+    border-radius: 5rem;
+    border: none;
+    font-size: .9rem;
+    box-shadow: 3px 3px #b5b5b5;
+}
+
+.chakra-btn:hover {
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
