@@ -1,8 +1,8 @@
-# App name
-### App description.  
+# Learning Chakras
+### An app for teaching chakras to children.  
 <br/>
 
-![Insert Image Link Here]()
+<!-- ![Insert Image Link Here]() -->
 
 > Currently under development 
 
@@ -14,5 +14,3 @@
 * HTML
 * CSS
 * Javascript
-* Node
-* React (JSX)
