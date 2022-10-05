@@ -257,6 +257,10 @@ body {
 
 @media (max-width: 425px) {
 
+  body {
+    overflow: scroll; 
+  }
+
   .figure-man-pic {
     height: 454px;
     left: 8rem;
@@ -328,7 +332,7 @@ body {
   .root-chakra-text {
     position: absolute;
     top: 35rem;
-    left: .8rem;
+    left: .6rem;
     visibility: visible;
     width: 25rem;
     height: 10rem;
