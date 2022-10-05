@@ -256,26 +256,22 @@ body {
 }
 
 @media (max-width: 425px) {
+
   .figure-man-pic {
     height: 454px;
-    left: 5.5rem;
-    position: absolute;
+    left: 8rem;
     top: 6rem;
-    left: 4.7rem;
+    position: absolute;
   }
 
   .chakra-btn {
     visibility: hidden;
   }
 
-  #chakra-text {
-    visibility: hidden;
-  }
-
   .red-chakra {
     position: absolute;
     top: 22rem;
-    left: 9.2rem;
+    left: 12.5rem;
     height: 2rem;
     width: 2rem;
     animation: animate 3s infinite;
@@ -283,7 +279,7 @@ body {
   .orange-chakra {
     position: absolute;
     top: 19rem;
-    left: 9.2rem;
+    left: 12.5rem;
     height: 2rem;
     width: 2rem;
     animation: animate 3s infinite;
@@ -291,7 +287,7 @@ body {
   .yellow-chakra {
     position: absolute;
     top: 16rem;
-    left: 9.2rem;
+    left: 12.5rem;
     height: 2rem;
     width: 2rem;
     animation: animate 3s infinite;
@@ -299,7 +295,7 @@ body {
   .green-chakra {
     position: absolute;
     top: 13rem;
-    left: 9.2rem;
+    left: 12.5rem;
     height: 2rem;
     width: 2rem;
     animation: animate 3s infinite;
@@ -307,7 +303,7 @@ body {
   .light-blue-chakra {
     position: absolute;
     top: 10rem;
-    left: 9.5rem;
+    left: 12.8rem;
     height: 1.5rem;
     width: 1.5rem;
     animation: animate 3s infinite;
@@ -315,7 +311,7 @@ body {
   .blue-chakra {
     position: absolute;
     top: 7rem;
-    left: 9.5rem;
+    left: 12.8rem;
     height: 1.5rem;
     width: 1.5rem;
     animation: animate 3s infinite;
@@ -323,10 +319,21 @@ body {
   .purple-chakra {
     position: absolute;
     top: 4rem;
-    left: 9.5rem;
+    left: 12.8rem;
     height: 1.5rem;
     width: 1.5rem;
     animation: animate 3s infinite;
+  }
+
+  .root-chakra-text {
+    position: absolute;
+    top: 35rem;
+    left: .8rem;
+    visibility: visible;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    margin-top: 2rem;
   }
 
 }
