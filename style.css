@@ -258,53 +258,77 @@ body {
 @media (max-width: 425px) {
   .figure-man-pic {
     height: 454px;
-    left: 3rem;
-  }
-
-  .chakra-btn {
-    height: 4rem;
-    width: 4rem;
-    font-size: 0.6rem;
-    margin-left: 11px;
-  }
-
-  .buttons-container {
-    width: 360px;
-    height: 34px;
-  }
-}
-
-@media (max-width: 375px) {
-  .figure-man-pic {
-    height: 454px;
-    left: 3rem;
-  }
-
-  .chakra-btn {
-    height: 4rem;
-    width: 4rem;
-    font-size: 0.6rem;
-    margin-left: 9px;
-  }
-
-  .buttons-container {
-    width: 360px;
-    height: 34px;
-  }
-}
-
-@media (max-width: 320px) {
-  .figure-man-pic {
-    height: 454px;
     left: 5.5rem;
+    position: absolute;
+    top: 6rem;
+    left: 4.7rem;
   }
 
   .chakra-btn {
     visibility: hidden;
   }
 
-  .buttons-container {
-    width: 360px;
-    height: 34px;
+  #chakra-text {
+    visibility: hidden;
   }
+
+  .red-chakra {
+    position: absolute;
+    top: 22rem;
+    left: 9.2rem;
+    height: 2rem;
+    width: 2rem;
+    animation: animate 3s infinite;
+  }
+  .orange-chakra {
+    position: absolute;
+    top: 19rem;
+    left: 9.2rem;
+    height: 2rem;
+    width: 2rem;
+    animation: animate 3s infinite;
+  }
+  .yellow-chakra {
+    position: absolute;
+    top: 16rem;
+    left: 9.2rem;
+    height: 2rem;
+    width: 2rem;
+    animation: animate 3s infinite;
+  }
+  .green-chakra {
+    position: absolute;
+    top: 13rem;
+    left: 9.2rem;
+    height: 2rem;
+    width: 2rem;
+    animation: animate 3s infinite;
+  }
+  .light-blue-chakra {
+    position: absolute;
+    top: 10rem;
+    left: 9.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    animation: animate 3s infinite;
+  }
+  .blue-chakra {
+    position: absolute;
+    top: 7rem;
+    left: 9.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    animation: animate 3s infinite;
+  }
+  .purple-chakra {
+    position: absolute;
+    top: 4rem;
+    left: 9.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    animation: animate 3s infinite;
+  }
+
 }
+
+
